@@ -26,7 +26,7 @@ async def start_handler(c, m):
     user_id = m.from_user.id
     if not await Data.find_one({'id': user_id}): await Data.insert_one({'id': user_id})
     lazydeveloper_btn = [[
-        InlineKeyboardButton('𝗞𝗮𝗻𝗻𝗮𝗱𝗮 𝗥𝗼𝗰𝗸𝗲𝗿𝘀', url='https://t.me/+YvNQCJ70hFE2ODhl')
+        InlineKeyboardButton('𝗞𝗮𝗻𝗻𝗮𝗱𝗮 𝗥𝗼𝗰𝗸𝗲𝗿𝘀', url='https://t.me/+dty12iJvy481MjBl')
     ]]
     return await m.reply_text(text=START_TEXT.format(m.from_user.mention), disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(lazydeveloper_btn))
           
