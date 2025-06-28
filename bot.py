@@ -6,7 +6,7 @@ from os import environ as env
 import asyncio, datetime, time
 
 
-ACCEPTED_TEXT = "Hi {user}\nYour Request For {chat} Is Accepted ✅ 𝐉𝐎𝐈𝐍: @Kr_Cinemagalu_2025\n\n{user} 𝗦𝗘𝗡𝗗 👉 /start To Get 𝗞𝗮𝗻𝗻𝗮𝗱𝗮 𝗥𝗼𝗰𝗸𝗲𝗿𝘀 𝗠𝗼𝘃𝗶𝗲𝘀 Updates\n\n 𝗝𝗼𝗶𝗻👇👇\nhttps://t.me/+hX62klnMayVjZTVl\nhttps://t.me/+hX62klnMayVjZTVl"
+ACCEPTED_TEXT = "Hi {user}\nYour Request For {chat} Is Accepted ✅ 𝐉𝐎𝐈𝐍: @KR_Filmy_Links\n\n{user} 𝗦𝗘𝗡𝗗 👉 /start To Get 𝗞𝗮𝗻𝗻𝗮𝗱𝗮 𝗥𝗼𝗰𝗸𝗲𝗿𝘀 𝗠𝗼𝘃𝗶𝗲𝘀 Updates\n\n 𝗝𝗼𝗶𝗻👇👇\nhttps://t.me/+hX62klnMayVjZTVl\nhttps://t.me/+hX62klnMayVjZTVl"
 START_TEXT = "Hai {}\n\nI am Auto Request Accept Bot With Working For All Channel. Add Me In Your Channel To Use"
 
 API_ID = int(env.get('API_ID'))
